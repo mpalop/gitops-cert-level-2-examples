@@ -1,4 +1,3 @@
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -12,10 +11,10 @@ spec:
         - name: UI_THEME
           value: "light"
         - name: CACHE_SIZE
-          value: "2048kb"
+          value: "1024kb"
         - name: PAGE_LIMIT
           value: "25"
         - name: SORTING
-          value: "ascending"    
+          value: "ascending"
         - name: N_BUCKETS
-          value: "42"          
+          value: "24"
