@@ -1,4 +1,3 @@
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -16,6 +15,6 @@ spec:
         - name: PAGE_LIMIT
           value: "25"
         - name: SORTING
-          value: "ascending"    
+          value: "ascending"
         - name: N_BUCKETS
-          value: "42"          
+          value: "42"
