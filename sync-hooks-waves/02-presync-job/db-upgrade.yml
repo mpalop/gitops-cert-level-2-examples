@@ -12,7 +12,7 @@ spec:
       - name: dummy-run
         image: alpine
         command:
-          - "sleep"
-          - "10"
+        - "sleep"
+        - "10"
       restartPolicy: Never
-  backoffLimit: 2    
+  backoffLimit: 2
