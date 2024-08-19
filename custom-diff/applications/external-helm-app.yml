@@ -23,7 +23,12 @@ spec:
     - CreateNamespace=true
 
   ignoreDifferences:
-  - group: apps
+  - group: ''
     kind: Deployment
     jsonPointers:
     - /metadata/annotations/creation
+  - group: ''
+    kind: Secret
+    jsonPointers:
+    - /data
+    - /stringData
